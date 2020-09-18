@@ -100,7 +100,7 @@ void calculator_menu(void)
         case SQUARES:
             printf("\n\t %d\nEnter to continue", 
             calculator_operand1, 
-            squares(calculator_operand1);
+            squares(calculator_operand1));
                    
             __fpurge(stdin);
             getchar();
@@ -108,7 +108,7 @@ void calculator_menu(void)
          case CUBES:
              printf("\n\t %d\nEnter to continue", 
             calculator_operand1, 
-            cubes(calculator_operand1);
+            cubes(calculator_operand1));
                    
             __fpurge(stdin);
             getchar();
@@ -117,7 +117,7 @@ void calculator_menu(void)
                printf("\n\t %d\nEnter to continue", 
             calculator_operand1,
             calculator_operand2,        
-            power(calculator_operand1,calculator_operand2);
+            power(calculator_operand1,calculator_operand2));
                    
             __fpurge(stdin);
             getchar();
@@ -126,7 +126,7 @@ void calculator_menu(void)
                 printf("\n\t %d\nEnter to continue", 
             calculator_operand1,
             calculator_operand2,           
-            max(calculator_operand1,calculator_operand2);
+            max(calculator_operand1,calculator_operand2));
                    
             __fpurge(stdin);
             getchar();
@@ -142,7 +142,7 @@ void calculator_menu(void)
           case PRIME:
                printf("\n\t %d\nEnter to continue", 
            calculator_operand1, 
-            prime(calculator_operand1);
+            prime(calculator_operand1));
                    
             __fpurge(stdin);
             getchar();
@@ -151,7 +151,7 @@ void calculator_menu(void)
                 printf("\n\t %d\nEnter to continue", 
             calculator_operand1,
             calculator_operand2,
-            average(calculator_operand1,calculator_operand2);
+            average(calculator_operand1,calculator_operand2));
                    
             __fpurge(stdin);
             getchar();
@@ -160,7 +160,7 @@ void calculator_menu(void)
                   printf("\n\t %d\nEnter to continue", 
             calculator_operand1,
             calculator_operand2,
-            swap(calculator_operand1,calculator_operand2);
+            swap(calculator_operand1,calculator_operand2));
                    
             __fpurge(stdin);
             getchar();
