@@ -44,16 +44,16 @@ int power(int operand1, int operand2)
     return result;
 }
 
-int max(int operand 1,int operand 2)
+int max(int operand1,int operand2)
 {
     if(operand1> operand2)
-    {
+ 
         return operand1;
-    }
+   
     else
-    {
+    
         return operand2;
-    }
+ 
 }
 
 int factorial(int operand1)
@@ -63,10 +63,11 @@ int factorial(int operand1)
         printf("Error! Factorial of a negative number doesn't exist.");
     else {
         for (items = 1; items <= operand1; ++items) {
-            fact *= i;
+            fact *= items;
         }
         return fact;
     }
+}
     
  int prime(int operand1)
 {
@@ -88,7 +89,7 @@ int isprime(int operand1)
   return 1;
 }   
    
- float average(float operand1, float operand2)
+ int average(int operand1, int operand2)
  {
      return (operand1+operand2)/2;
  }
