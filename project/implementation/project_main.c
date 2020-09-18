@@ -98,7 +98,7 @@ void calculator_menu(void)
             getchar();
             break;
         case SQUARES:
-            printf("\n\t%d / %d = %d\nEnter to continue", 
+            printf("\n\t %d\nEnter to continue", 
             calculator_operand1, 
             squares(calculator_operand1);
                    
@@ -106,7 +106,7 @@ void calculator_menu(void)
             getchar();
             break;
          case CUBES:
-             printf("\n\t%d / %d = %d\nEnter to continue", 
+             printf("\n\t %d\nEnter to continue", 
             calculator_operand1, 
             cubes(calculator_operand1);
                    
@@ -114,7 +114,7 @@ void calculator_menu(void)
             getchar();
             break;
           case POWER:
-               printf("\n\t%d / %d = %d\nEnter to continue", 
+               printf("\n\t %d\nEnter to continue", 
             calculator_operand1,
             calculator_operand2,        
             power(calculator_operand1,calculator_operand2);
@@ -123,7 +123,7 @@ void calculator_menu(void)
             getchar();
             break;
           case MAX:
-                printf("\n\t%d / %d = %d\nEnter to continue", 
+                printf("\n\t %d\nEnter to continue", 
             calculator_operand1,
             calculator_operand2,           
             max(calculator_operand1,calculator_operand2);
@@ -132,7 +132,7 @@ void calculator_menu(void)
             getchar();
             break;
           case FACTORIAL:
-                  printf("\n\t%d / %d = %d\nEnter to continue", 
+                  printf("\n\t %d\nEnter to continue", 
             calculator_operand1, 
             factorial(calculator_operand1);
                    
@@ -140,7 +140,7 @@ void calculator_menu(void)
             getchar();
             break;  
           case PRIME:
-               printf("\n\t%d / %d = %d\nEnter to continue", 
+               printf("\n\t %d\nEnter to continue", 
            calculator_operand1, 
             prime(calculator_operand1);
                    
@@ -148,7 +148,7 @@ void calculator_menu(void)
             getchar();
             break;
           case AVERAGE:
-                printf("\n\t%d / %d = %d\nEnter to continue", 
+                printf("\n\t %d\nEnter to continue", 
             calculator_operand1,
             calculator_operand2,
             average(calculator_operand1,calculator_operand2);
@@ -157,7 +157,7 @@ void calculator_menu(void)
             getchar();
             break;
          case SWAP:
-                  printf("\n\t%d / %d = %d\nEnter to continue", 
+                  printf("\n\t %d\nEnter to continue", 
             calculator_operand1,
             calculator_operand2,
             swap(calculator_operand1,calculator_operand2);
