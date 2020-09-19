@@ -128,5 +128,5 @@ CU_ASSERT(2 == average(0,4));
 
 void test_swap(void)
 {
-CU_ASSERT_EQUAL(2,swap(3));
+CU_ASSERT((2,3)==swap(3,2));
 }
