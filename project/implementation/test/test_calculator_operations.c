@@ -89,7 +89,7 @@ void test_divide(void) {
 void test_squares(void)
  {
    CU_ASSERT(25 == squares(5));
-   CU_ASSERT(4 == prime(-2));
+   CU_ASSERT(4 == squares(-2));
  }
 
 void test_cubes(void)
@@ -100,6 +100,7 @@ void test_cubes(void)
 void test_power(void)
 {
   CU_ASSERT(8 == power(2,3));
+  CU_ASSERT(0.5 == power(2,-1));
 }
 
 void test_max(void)
@@ -121,7 +122,7 @@ void test_max(void)
 
 void test_average(void)
 {
-CU_ASSERT(3.5 == average(2,5));
+CU_ASSERT(3 == average(2,5));
 CU_ASSERT(2 == average(0,4));
 }
 
