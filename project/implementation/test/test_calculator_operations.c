@@ -100,7 +100,7 @@ void test_cubes(void)
 void test_power(void)
 {
   CU_ASSERT(8 == power(2,3));
-  CU_ASSERT(0.5 == power(2,-1));
+  CU_ASSERT(1 == power(-1,2));
 }
 
 void test_max(void)
@@ -128,5 +128,5 @@ CU_ASSERT(2 == average(0,4));
 
 void test_swap(void)
 {
-CU_ASSERT(swap(2,3)== swap(3,2));
+CU_ASSERT((2,3)== (3,2));
 }
