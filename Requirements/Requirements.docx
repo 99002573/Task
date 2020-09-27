@@ -1,1 +1,29 @@
+Requirements:
+
+ID	DESCRIPTION
+1	The calculator has the following keys 0-9, +, -, *, /, =, DEL, AC. and operations keys like power, squares, cubes, max, factorial, average, prime, swap.
+2	In any situation, calculator must produce a correct result defined by the well-known arithmetic rules.
+3	If the calculations are impossible the calculator must display information helping the user to resolve the erroneous situation
+
+4	On encountering a division by 0 the display should read "Math Error" and typing the key “AC” should reset the calculator 
+
+5	On calculating the “factorial” value of a negative operand, the display should read "Wrong operand".    
+
+6	For operation key ‘max’ the fucntions identifies the maximum of two operands and display the highest value operand it is possible for both positive and negative operands
+7	For operation key “swap” the two operands swaps their values.
+8	On identifying a non-prime value, the display should read "Not a prime".   
+
+9	On erroneous operand or operation keys the display should read “Reset (AC) to continue” or “Clear (DEL) to continue” as appropriate. Of course, any situation can be cleared using the main reset key “AC”.  
+
+10	The program shall be written in standard C, as compiled by the GNU GCC compiler (). The program shall use only standard C library functions. The program shall be usable on any system which supports the compiler, and shall not require any particular hardware or software.  
+
+
+High-level and Low-level requirements:
+ 
+H_01_L_01 	The program must have the required keys in their respective types-hence impossible results must be ask by showing some hint or symbols. 
+H_02_L_01 	The correct results must be produced within less amount of time -any device with proper compile shall use this program. 
+H_03_L_01	The system must have the display to show the respective results 
+H_04_L_01 	Indefinite form 
+H_05_L_02 	Imaginary number 
+ 
 
